@@ -18,8 +18,42 @@ typedef struct Q_st {
   int *v;
 } Q_st;
 
+typedef struct Automato {
+  int Qs;
+  Q_st *estados;
+  int Es;
+  char **alfabeto;
+  int qi;
+} Automato;
+
 int compara(const void *a, const void *b) {
   return strcmp(*(char **)a, *(char **)b);
+}
+
+void *processa(Automato A, qa) {
+  char *buf = (char *)malloc(100 * sizeof(char));
+  if(scanf("%s", buf) != 1) {
+    if(A.estados[qa].t == 'f') {
+      printf("ACEITA A PALAVRA\n");
+      return NULL;
+    }
+    printf("REJEITO A PALAVRA! NAO EXISTE!!!\n");
+    return NULL;
+  }
+
+  // procure a palavra no alfabeto. 
+  char **p = bsearch(&buf, A.alfabeto, A.Es, sizeof(char *), compara);
+
+  if(p == NULL) {
+    printf("RECEBI %s mas esperava simbolo valido\n", buf);
+    return NULL;
+  }
+
+  unsigned long pv = (p-A.alfabeto);
+  if (A.estados[qa].v[pv] == -1) {
+    printf("ESTADO '%d' NAO POSSUI TRANSICAO CONSUMINDO '%s'", qa, buf);
+  }
+  return processa(A, A.estados[qa].v[pv]);
 }
 
 int main() {
@@ -54,15 +88,17 @@ int main() {
 
   // tamanho da tabela de transição.
   scanf("%d", &ds);
+  char *simbolo = (char *)malloc(10 * sizeof(char));
+  char s2;
   for (int i=0; i<ds; i++) {
-    int e; char simbolo[10]; int e2;
+    int e, e2;
     scanf("%d %s %d", &e, simbolo, &e2);
+    printf("D: %d %s %d\n",e,simbolo,e2);
 
     // pega a posição do simbolo no alfabeto.
     char **p = bsearch(&simbolo, alfabeto, Es, sizeof(char *), compara);
 
-    unsigned long pv = (p-alfabeto)/8;
-    printf("=== alfabeto=%p, p=%p, pv=%lu\n", pv);
+    unsigned long pv = (p-alfabeto);
     estados[e].v[pv] = e2;
   }
 
@@ -74,5 +110,7 @@ int main() {
     scanf("%d", &q);
     estados[q].t = 'f';
   }
+
+  processa((Automato){Qs, estados, Es, alfabeto, qi}, qi);
 }
 ```
