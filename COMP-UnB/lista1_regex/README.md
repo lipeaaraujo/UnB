@@ -88,4 +88,12 @@ https://moj.naquadah.com.br/contests/bcr-COMP-2024_1-lista1-regex/date-de-voce-o
 
 ## O - Frases entre Tags
 
+https://moj.naquadah.com.br/contests/bcr-COMP-2024_1-lista1-regex/frases-entre-tags.html
+
+- **[Solução do Exercício](tags.grepe)**
+
 ## P - Quebrando senhas com RegEx
+
+https://moj.naquadah.com.br/contests/bcr-COMP-2024_1-lista1-regex/quebrando-senhas-com-regex.html
+
+- **[Solução do Exercício](quebrandoSenhas.grepe)**
