@@ -1,0 +1,66 @@
+algoritmo fatorial;
+// Síntese
+//  Objetivo:  Calcular o valor de uma expressão contendo fatorial apartir de dois valores inteiros.
+//  Entrada : Dois valores inteiros (x e y).
+//  Saída   : O resultado da expressão.
+
+
+principal
+	// Declarações
+
+	inteiro x, y, fatX, fatY, fatXY;
+	real resultado;
+
+	// Instruções
+
+	leia(x);
+	leia(y);
+
+	se (x >= 0 e y >= 0) entao
+		// Fatorial de x:
+		fatX = fatorial(x);
+
+		// Fatorial de y:
+		fatY = fatorial(y);
+
+		// Fatorial de x + y:
+		fatXY = fatorial((x + y));
+
+		// Calculo da expressão:
+
+		resultado = fatXY / raizQuadrada(fatX + fatY);
+
+		// Saída
+
+		escreval("RESULTADO = ", resultado::3);
+		
+	senao
+		se (x < 0) entao
+			escreval("VALOR DE X INCORRETO");
+		fimSe
+		se (y < 0) entao
+			escreval("VALOR DE Y INCORRETO");
+		fimSe
+	fimSe
+
+fimPrincipal
+
+funcao inteiro fatorial(inteiro valor)
+
+	// Declarações
+
+	inteiro i, resultado;
+
+	// Calculo da fatorial
+
+	se (valor > 1) entao
+		resultado = valor;
+		para (i de (valor - 1) ate 1 passo -1) faca
+			resultado = resultado * i;
+		fimPara
+	senao
+		resultado = 1;
+	fimSe
+
+		retorna(resultado);
+		fimFuncao

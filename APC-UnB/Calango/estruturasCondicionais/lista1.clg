@@ -1,0 +1,38 @@
+algoritmo mediaPonderada;
+// Síntese
+//  Objetivo:  Calcular a média ponderada de três notas.
+//  Entrada : Três notas e os seus respectivos pesos.
+//  Saída   : A média ponderada das notas.
+
+principal
+	// Declarações
+
+	real nota1, nota2, nota3;
+	real peso1, peso2, peso3;
+	real notaTotal, pesoTotal, mediaPonderada;
+	
+	// Instruções
+
+	leia(nota1);
+	leia(peso1);
+	leia(nota2);
+	leia(peso2);
+	leia(nota3);
+	leia(peso3);
+
+	notaTotal = nota1 + nota2 + nota3;
+	pesoTotal = peso1 + peso2 + peso3;
+
+	se (pesoTotal == 10) entao
+		se (notaTotal >= 0) entao
+			mediaPonderada = (peso1 * (nota1 / 10)) + (peso2 * (nota2 / 10)) + (peso3 * (nota3 / 10));
+			escreval("MEDIA PONDERADA = ", mediaPonderada::2);
+		senao
+			escreval("ERRO");
+		fimSe
+	senao
+		escreval("ERRO");
+	fimSe
+
+
+fimPrincipal

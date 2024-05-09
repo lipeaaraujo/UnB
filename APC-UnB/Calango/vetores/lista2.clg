@@ -1,0 +1,54 @@
+algoritmo sequenciaCaracteres;
+// Síntese
+//  Objetivo: Comparar duas sequências de caracteres.
+//  Entrada : Um número inteiro indicando a quantidade de caracteres e as duas sequências.
+//  Saída   : Se as sequências são iguais ou não.
+
+
+principal
+	// Declarações
+
+	inteiro num_caracteres, i;
+	caracter sequencia_1[6];
+	caracter sequencia_2[6];
+	logico sequencias_iguais;
+
+	// Instruções
+
+	leia(num_caracteres);
+
+	// Ler a primeira sequência:
+	para (i de 0 ate num_caracteres - 1 passo 1) faca
+		leiaCaracter(sequencia_1[i]);
+	fimPara
+
+	// Ler a segunda sequência:
+	para (i de 0 ate num_caracteres - 1 passo 1) faca
+		leiaCaracter(sequencia_2[i]);
+	fimPara
+
+	sequencias_iguais = compara_sequencias(sequencia_1, sequencia_2, num_caracteres);
+
+	se (sequencias_iguais == verdadeiro) entao
+		escreval("As sequencias sao iguais!");
+	senao
+		escreval("As sequencias sao diferentes!");
+	fimSe
+
+fimPrincipal
+
+funcao logico compara_sequencias(caracter sequencia_1[], caracter sequencia_2[], inteiro num_caracteres)
+
+	inteiro i;
+	logico sequencias_iguais;
+	
+	sequencias_iguais = verdadeiro;
+	para(i de 0 ate num_caracteres - 1 passo 1) faca
+		se (sequencia_1[i] != sequencia_2[i]) entao
+			sequencias_iguais = falso;
+		fimSe
+	
+	fimPara
+
+retorna sequencias_iguais;
+fimFuncao

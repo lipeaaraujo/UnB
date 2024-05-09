@@ -1,0 +1,20 @@
+algoritmo celsiusFahrenheit;
+// Síntese
+//  Objetivo:  Calcular de uma temperatura em Celsius, o valor  temperatura correspondente em Fahrenheit.
+//  Entrada : Temperatura em Celsius
+//  Saída   : Temperatura em Fahrenheit, com uma casa decimal
+
+principal
+	// Declarações
+
+	real tempC, tempF;
+	
+	// Instruções
+
+	leia(tempC);
+
+	tempF = (tempC * 1.8) + 32;
+
+	escreval("FAHRENHEIT = ", tempF::1);
+
+fimPrincipal

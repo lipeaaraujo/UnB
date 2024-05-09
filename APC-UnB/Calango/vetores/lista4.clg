@@ -1,0 +1,40 @@
+algoritmo ordenarSequencia;
+// Síntese
+//  Objetivo:  Mostrar a sequência ordenada de uma sequência de N números inteiros.
+//  Entrada : Sequência de N números inteiros, um após o outro.
+//  Saída   : O conjunto N de números em ordem crescente.
+
+
+principal
+	// Declarações
+
+	inteiro i, j, posicaoMenor;
+	inteiro n, numeros[9], menor_valor;
+
+	// Instruções
+
+	leia(n);
+	para (i de 0 ate n-1 passo 1) faca
+		leia(numeros[i]);
+	fimPara
+
+	para (i de 0 ate n-1 passo 1) faca
+		menor_valor = numeros[i];
+		posicaoMenor = i;
+		para (j de i ate n-1 passo 1) faca
+			se (numeros[j] < menor_valor) entao
+				menor_valor = numeros[j];
+				posicaoMenor = j;
+			fimSe
+		fimPara
+		numeros[posicaoMenor] = numeros[i];
+		numeros[i] = menor_valor;
+	fimPara
+
+	para(i de 0 ate n-1 passo 1) faca
+		escreval(numeros[i]);
+	fimPara
+	
+fimPrincipal
+      
+      

@@ -1,0 +1,60 @@
+algoritmo somaMultiplicacaoDivisores;
+// Síntese
+//  Objetivo:  Calcular a soma e multiplicação de divisores de um número qualquer.
+//  Entrada : Um número inteiro maior que zero.
+//  Saída   : O resultado da soma e da multiplicação de seus divisores.
+
+
+principal
+	// Declarações
+
+	inteiro numero, somaDiv, multiDiv;
+
+	// Instruções
+
+	leia(numero);
+
+	// Verificação do valor de entrada:
+	se (numero > 0) entao
+		// Valor de entrada válido.
+		somaDiv = soma_divisores(numero);
+		multiDiv = multiplicacao_divisores(numero);
+		
+		escreval("SOMA DOS DIVISORES = ", somaDiv);
+		escreval("PRODUTO DOS DIVISORES = ", multiDiv);
+	senao
+		// Valor de entrada inválido.
+		escreval("VALOR DE ENTRADA INCORRETO");
+	fimSe
+
+fimPrincipal
+
+// Função de soma dos divisores:
+funcao inteiro soma_divisores(inteiro numero)
+
+	inteiro i, soma;
+	
+	soma = 0;
+	para (i de 1 ate numero passo 1) faca
+		se ((numero % i) == 0) entao
+			soma = soma + i; 
+		fimSe
+	fimPara
+
+retorna(soma);
+fimFuncao
+
+// Função de multiplicação de divisores:
+funcao inteiro multiplicacao_divisores(inteiro numero)
+
+	inteiro i, multiplicacao;
+
+	multiplicacao = 1;
+	para (i de 1 ate numero passo 1) faca
+		se ((numero % i) == 0) entao
+			multiplicacao = multiplicacao * i;
+		fimSe
+	fimPara
+
+	retorna(multiplicacao);
+fimFuncao

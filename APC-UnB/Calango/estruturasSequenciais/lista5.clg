@@ -1,0 +1,24 @@
+algoritmo tempoClassificacao;
+// Síntese
+//  Objetivo:  Calcular o tempo final de um piloto apartir do seu tempo de volta e as punições recebidas.
+//  Entrada : Tempo da volta em milissegundos, número de punições recebidas pelo piloto.
+//  Saída   : Tempo final em milissegundos.
+
+principal
+	// Declarações
+
+	inteiro tempoVolta, punicoes1, punicoes2;
+	real tempoFinal;
+
+	// Instruções
+
+	leia(tempoVolta);
+	leia(punicoes1);
+	leia(punicoes2);
+	
+	tempoFinal = (tempoVolta + (500 * punicoes1)) * exp((103/100), punicoes2);
+
+	escreva("TEMPO FINAL = ", tempoFinal::2);
+	escreval(" ms");
+
+fimPrincipal

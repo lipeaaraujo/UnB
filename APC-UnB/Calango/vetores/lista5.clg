@@ -1,0 +1,66 @@
+algoritmo classificacaoConcurso;
+// Síntese
+//  Objetivo:  Ordenar uma lista da maior nota para a menor de uma série de dados de candidatos inseridos.
+//  Entrada : Uma quantidade N de pares de nomes e notas.
+//  Saída   : Os nomes ordenados pela suas respectivas notas, do maior para o menor.
+
+
+principal
+	// Declarações
+
+	inteiro i;
+	inteiro n;
+	texto nome[6];
+	real nota[6];
+	
+	// Instruções
+
+	// Entrada de dados:
+	leia(n);
+
+	para(i de 0 ate n-1 passo 1) faca
+		leia(nome[i]);
+		leia(nota[i]);
+	fimPara
+
+	// Chama o procedimento "invSelectionSort":
+	invSelectionSort(nome, nota, n);
+
+fimPrincipal
+
+procedimento invSelectionSort(texto nome[], real nota[], inteiro n)
+	// Procedimento que faz o Selection Sort inverso no vetor.
+	
+	// Declarações
+
+	inteiro i, j, posMaior, colocacao;
+	real maiorNota;
+	texto nomeMaiorNota;
+	
+	para(i de 0 ate n-1 passo 1) faca
+		maiorNota = nota[i];
+		nomeMaiorNota = nome[i];
+		posMaior = i;
+		para(j de i ate n-1 passo 1) faca
+			se(nota[j] > maiorNota) entao
+				maiorNota = nota[j];
+				nomeMaiorNota = nome[j];
+				posMaior = j;
+			fimSe
+		fimPara
+
+		// Ordena as notas:
+		nota[posMaior] = nota[i];
+		nota[i] = maiorNota;
+
+		// Ordena os nomes:
+		nome[posMaior] = nome[i];
+		nome[i] = nomeMaiorNota;
+	fimPara
+
+	// Saída de dados:
+	para(i de 0 ate n-1 passo 1) faca
+		colocacao = i + 1;
+		escreval(colocacao + " - " + nome[i]);
+	fimPara
+fimProcedimento

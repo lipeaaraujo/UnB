@@ -1,0 +1,49 @@
+algoritmo dadosComissao;
+// Síntese
+//  Objetivo: Informar o vendedor com maior comissão e o com menor. 
+//  Entrada : Número de vendedores e suas respectivas comissões.
+//  Saída   : O código do vendedor com maior e o com menor comissão.
+
+principal
+	// Declarações
+
+	inteiro i;
+	inteiro numVendedores, codigo[50], codigoMaior, codigoMenor;
+	real comissao[50], maiorComissao, menorComissao;
+ 	
+	// Instruções
+
+	// Entrada de dados:
+	// Ler o número de vendedores da loja:
+	leia(numVendedores);
+
+	// Entrada dos dados de cada vendedor:
+	
+	para (i de 0 ate (numVendedores - 1) passo 1) faca
+		leia(codigo[i]);
+		leia(comissao[i]);
+	fimPara
+
+	maiorComissao = comissao[0];
+	codigoMaior = codigo[0];
+	menorComissao = comissao[0];
+	codigoMenor = codigo[0];
+	
+	para (i de 0 ate (numVendedores - 1) passo 1) faca
+		// Verificação da maior comissão:
+		se (comissao[i] > maiorComissao) entao
+			maiorComissao = comissao[i];
+			codigoMaior = codigo[i];
+		fimSe
+
+		//Verificação da menor comissão:
+		se (comissao[i] < menorComissao) entao
+			menorComissao = comissao[i];
+			codigoMenor = codigo[i];
+		fimSe
+	fimPara
+
+	escreval("VENDEDOR COM MAIOR COMISSAO = ", codigoMaior);
+	escreval("VENDEDOR COM MENOR COMISSAO = ", codigoMenor);
+
+fimPrincipal
