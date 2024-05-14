@@ -7,7 +7,7 @@ The main purpose of this repository is to organize my course materials and proje
 
 ## 📑 Contents
 
-Each course has it's own separate **folder** all named as **acronyms**, each folder has it's own organization depending on the course and it's material.
+Each course has it's own separate **folder** named after it's **acronym**, each folder has it's own organization depending on the course and it's material.
 
 - **Course Materials:**
   - Exercise lists
@@ -29,7 +29,7 @@ Each course has it's own separate **folder** all named as **acronyms**, each fol
 
 ## How to Use
 
-You can explore and use the contents of this repository by **cloning** it, you can use the materials and projects for your own learning.
+You can explore and use the contents of this repository by **cloning** it, you can use the materials and projects freely for your own learning.
 
 ## ✉️ Contact
 
