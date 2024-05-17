@@ -20,7 +20,7 @@ Each course has it's own separate **folder** named after it's **acronym**, each 
 | 1st Semester | 2nd Semester | 3rd Semester | 4th Semester | 5th Semester |
 |-|-|-|-|-|
 | Cálculo 1 | Cálculo 2 | Orientação à Objetos | Métodos de Desenvolvimento de Software | Requisitos de Software |
-| [Algoritmos e Programação de Computadores](APC-UnB/) | Introdução à Álgebra Linear | Teoria de Eletrônica Digital | Estruturas de Dados 1 | Estrutura de Dados 2 |
+| [Algoritmos e Programação de Computadores](APC-UnB/) | Introdução à Álgebra Linear | Teoria de Eletrônica Digital | Estruturas de Dados 1 | [Estrutura de Dados 2](EDA2-UnB/) |
 | Desenho Industrial Assistido por Computador | Probabilidade e Estatística | Prática de Eletrônica Digital | Fundamentos de Arquitetura de Computadores | [Compiladores](COMP-UnB/) |
 | Engenharia e Ambiente | Física 1 | Engenharia Econômica | Gestão de Produção e Qualidade | [Fundamentos de Sistemas Operacionais](FSO-UnB/) |
 | Introdução à Engenharia | Física Experimental | Desenvolvimento de Software | Matemática Discreta 2 | [Interação Humano Computador](IHC-UnB/) |
