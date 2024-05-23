@@ -6,13 +6,13 @@ Formativa 4 de Estrutura de Dados 2 sobre Árvores (Trees), exercícios de A e J
 
 https://moj.naquadah.com.br/contests/jl_eda2_f4_2024_1/arvore-binaria-pre.html
 
-- **[Solução do Exercício]()**
+- **[Solução do Exercício](preOrdem.c)**
 
 ## B - Em ordem
 
 https://moj.naquadah.com.br/contests/jl_eda2_f4_2024_1/arvore-binaria-in.html
 
-- **[Solução do Exercício]()**
+- **[Solução do Exercício](emOrdem.c)**
 
 ## C - Pós-ordem
 
