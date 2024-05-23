@@ -1,0 +1,61 @@
+/* Logicop1FelipeAraujo: */
+
+CREATE DATABASE
+	IF NOT EXISTS felipeAraujo;
+
+USE felipeAraujo;
+
+CREATE TABLE PESSOA (
+    nomeCompleto VARCHAR(50) NOT NULL,
+    cpfPessoa DECIMAL(11) NOT NULL,
+    dataNascimento DATE NOT NULL,
+    CONSTRAINT PESSOA_PK PRIMARY KEY (cpfPessoa)
+) ENGINE = InnoDB;
+
+CREATE TABLE UNIVERSIDADE (
+    cgc DECIMAL(14) NOT NULL,
+    nomeUniversidade VARCHAR(60) NOT NULL,
+    CONSTRAINT UNIVERSIDADE_PK PRIMARY KEY (cgc)
+) ENGINE = InnoDB;
+
+CREATE TABLE CURSO (
+    nomeCurso VARCHAR(50) NOT NULL,
+    idCurso INT NOT NULL AUTO_INCREMENT,
+    CONSTRAINT CURSO_PK PRIMARY KEY (idCurso)
+) ENGINE = InnoDB AUTO_INCREMENT = 0 ;
+
+CREATE TABLE DOCENTE (
+    matriculaFuncional VARCHAR(20) NOT NULL UNIQUE,
+    dataNascimento DATE NOT NULL,
+    nomeCompleto VARCHAR(50) NOT NULL,
+    cpfDocente DECIMAL(11) NOT NULL,
+    CONSTRAINT DOCENTE_PK PRIMARY KEY (cpfDocente)
+) ENGINE = InnoDB;
+
+CREATE TABLE ALUNO (
+    dataIngresso DATE NOT NULL,
+    idCurso INT NOT NULL,
+    cpfDocente DECIMAL(11) NOT NULL,
+    cpfPessoa DECIMAL(11) NOT NULL,
+    cgc DECIMAL(14) NOT NULL,
+    CONSTRAINT ALUNO_PK PRIMARY KEY (idCurso),
+    CONSTRAINT ALUNO_DOCENTE_FK FOREIGN KEY (cpfDocente) REFERENCES DOCENTE (cpfDocente),
+    CONSTRAINT ALUNO_PESSOA_FK FOREIGN KEY (cpfPessoa) REFERENCES PESSOA (cpfPessoa)
+) ENGINE = InnoDB;
+
+CREATE TABLE telefone (
+    telefone VARCHAR(15) NOT NULL UNIQUE,
+    cpfPessoa DECIMAL(11) NOT NULL,
+    CONSTRAINT telefone_PESSOA_FK FOREIGN KEY (cpfPessoa) REFERENCES PESSOA (cpfPessoa)
+) ENGINE = InnoDB;
+
+CREATE TABLE enderecoPrincipal (
+    logradouro VARCHAR(80) NOT NULL,
+    bairro VARCHAR(30) NOT NULL,
+    cidade VARCHAR(30) NOT NULL,
+    uf VARCHAR(2) NOT NULL,
+    cgc DECIMAL(14) NOT NULL,
+    CONSTRAINT enderecoPrincipal_UNIVERSIDADE_FK FOREIGN KEY (cgc) REFERENCES UNIVERSIDADE (cgc)
+) ENGINE = InnoDB;
+
+-- DROP DATABASE felipeAraujo;
