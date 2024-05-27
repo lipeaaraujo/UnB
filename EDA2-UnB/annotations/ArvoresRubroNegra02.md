@@ -16,7 +16,7 @@ int ehVermelho(no *) {
 no *corrige(no *r) {
   if (ehPreto(r->esq) && ehVermelho(r->dir))
     r = rotacao_esquerda(r);
-  if (ehVermelho(r->esq) && ehPreto(r->esq->esq))
+  if (ehVermelho(r->esq) && ehVermelho(r->esq->esq))
     r = rotacao_direita(r);
   if (ehVermelho(r->esq) && ehVermelho(r->dir))
     sobe_cor(r);
@@ -36,7 +36,7 @@ no *rotaciona_esquerda(no *r) {
 ```
 ```c
 no *rotaciona_direita(no *r) {
-  no *x = r->dir;
+  no *x = r->esq;
   x->cor = r->cor;
   r->cor = VERMELHO;
   r->esq = x->dir;
