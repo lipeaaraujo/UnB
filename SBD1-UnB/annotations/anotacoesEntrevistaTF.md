@@ -27,7 +27,7 @@ Entender que o problema envolve custos e lucros
 - Trabalha com a maquininha de cartão, que contém juros que depende do tipo de pagamento (crédito ou débito), e se a compra foi dividida. A maquinhina com débito não acrescenta juros, quando é parcelado o juros é dívidido entre ela e o cliente.
 - Só é possível saber o valor de juros na maquininha.
 - Convém saber se um cliente é um cliente regular e as datas gerais em que esse cliente compra para ser possível entrar em contato
-- Deve ser armazenado a quantidade, preço, valor gasto de cada compra de produto.
+- **Deve ser armazenado a quantidade, preço, valor gasto de cada compra de produto**.
 - Os ciclos não afetam a porcentagem de lucro, e sim marca a marca. Os ciclos afetam o preço de pedidos.
 - A divulgação é feita exclusivamente pelas redes sociais.
 - As revistas são revistas físicas e revistas digitais, que apresentam todos os produtos que a marca oferece.
@@ -36,9 +36,15 @@ Entender que o problema envolve custos e lucros
 - Todo ciclo tem uma data de início e término (14 ou 15 dias).
 - Anota no caderno os clientes que ainda não realizaram pagamento, seria interessante o sistema fazer o acompanhameno dos prazos e atrasos.
 - As vezes é tirado do lucro para cobrir atrasos de pagamento.
-- O lucro é gerado pela porcentagem de lucro da marca e do valor da revista, e pela diferenã de valor em relação aos ciclos, por exemplo, se um produto ficar mais caro depois de um ciclo, ela lucra em cima da diferença de preço e da porcentagem de lucro.
+- O lucro é gerado pela porcentagem de lucro da marca e do valor da revista, e pela diferença de valor em relação aos ciclos, por exemplo, se um produto ficar mais caro depois de um ciclo, ela lucra em cima da diferença de preço e da porcentagem de lucro.
 - Quando é comprado produtos para estoque, é cortado a porcentagem de lucro, assim ela paga mais barato.
 - Os ciclos vão do ciclo 1 no começo do ano, o tamanho dos ciclos variam.
 - As revistas também tem preço, porém ela recebe-as gratuitamente, não tem lucro e nem despesa
 - Ela recebe as revistas de próximos ciclos de forma antecipada, nas revistas digitais é possível ver todas as revistas dos próximos ciclos.
 - Produto individual precisa de **validade**
+
+## Minhas possíveis dúvidas
+- Interessa ter outras formas de pagamento pro pedido além do boleto?
+- Assim que a data de validade do produto passa ele é removido do estoque?
+- A porcentagem de lucro que uma marca oferece é fixa ou variável?
+- 
