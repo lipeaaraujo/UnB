@@ -1,0 +1,4 @@
+1-tabela verdade por mux a)16 canais b)8 canais
+2-circuito contador e módulo e diagrama de transição
+3-projetar contador
+4-questão teórica sobre contadores ou circuito pronto para fazer diagrama de transição e módulo
