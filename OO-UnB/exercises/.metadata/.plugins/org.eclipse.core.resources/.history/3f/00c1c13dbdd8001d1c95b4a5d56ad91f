@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Tarefa {
+
+	double prioridade;
+	String nome;
+	Date dataLimite;
+	double percentual;
+	String detalhamento;
+	ArrayList<Item> itens = new ArrayList<Item>();
+	
+	public Tarefa(String nome, double prior, Date dataLimite,
+				  double percen, String detalhamento) {
+		prioridade = prior;
+		this.nome = nome;
+		this.dataLimite = dataLimite;
+		percentual = percen;
+		this.detalhamento = detalhamento;
+	}
+	
+	public void addItem(double percen, String desc, Date data) {
+		Item item = new Item(percen, desc, data);
+		itens.add(item);
+	}
+	
+	public void concluirTarefa() {
+		System.out.println("Tarefa "+nome+" concluída!");
+	}
+}

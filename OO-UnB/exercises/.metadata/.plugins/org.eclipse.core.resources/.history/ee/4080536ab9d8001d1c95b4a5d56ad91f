@@ -1,0 +1,11 @@
+import java.util.Date;
+
+public class Tarefa {
+
+	double prioridade;
+	String nome;
+	Date dataLimite;
+	double percentual;
+	String detalhamento;
+	
+}

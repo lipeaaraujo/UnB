@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Tarefa {
+
+	double prioridade;
+	String nome;
+	Date dataLimite;
+	double percentual;
+	String detalhamento;
+	ArrayList<Item> itens = new ArrayList<Item>();
+	
+	public Tarefa(String nome, double prior, Date dataLimite,
+				  double perc, String detalhamento) {
+		prioridade = prior;
+		this.nome = nome;
+		this.dataLimite = dataLimite;
+		this
+	}
+}
