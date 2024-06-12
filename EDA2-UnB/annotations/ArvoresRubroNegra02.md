@@ -3,6 +3,11 @@
 ### Inserção
 
 ```c
+no *sobe_cor(r) {
+  r->esq->cor = r->dir->cor = PRETO;
+  r->cor = VERMELHO;
+}
+
 int ehPreto(no *r) {
   if (r == NULL) return 1;
   else return r->cor == PRETO;
