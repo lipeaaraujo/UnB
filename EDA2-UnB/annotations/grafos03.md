@@ -81,7 +81,3 @@ void imprime_recomendacoes(grafo *g, int u) {
 }
 ```
 $O(n)$ ou $O(\delta_{max})$ usando listas.
-
-## Caminhos
-
-Um caminho entre dois vértices $u$ e $v$ é uma sequência de vértices adjacentes, sem **repetição**, começando em $u$ e terminando em $v$.
