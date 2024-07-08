@@ -5,8 +5,7 @@ A memória RAM é um recurso extremamente importante para o funcionamento de qua
 É necessário que o Sistema Operacional saiba gerenciar essa memória e sejam projetados para lidar com essas características
 
 ## Hierarquia de Memória
-
-| Tipos | Custo | Velocidade |
+Com
 |-|-|-|
 | Registradores | mais custo | mais rápido |
 | Cache | - | - |
