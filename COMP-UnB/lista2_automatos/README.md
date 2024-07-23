@@ -1,4 +1,4 @@
-# Lista de AFD, AFN e AFP
+# Lista (AFD, AFN e AFP)
 
 Segunda lista de exercícios de Compiladores envolvendo o conteúdo de implementação de autômatos, exercícios de A a C.
 
@@ -6,16 +6,17 @@ Segunda lista de exercícios de Compiladores envolvendo o conteúdo de implement
 
 https://moj.naquadah.com.br/contests/bcr-COMP-2024_1-lista2-afsimples/afd_simples.html
 
-- **[Solução do Exercício]()**
+- **[Solution](afdSimples.c)**
 
 ## B - AFN simples
 
 https://moj.naquadah.com.br/contests/bcr-COMP-2024_1-lista2-afsimples/afn_simples.html
 
-- **[Solução do Exercício]()**
+- **[Solution](afnSimples.c)**
 
-## C - AFD de LOTUS
+## C - AFP de LOTUS
 
 https://moj.naquadah.com.br/contests/bcr-COMP-2024_1-lista2-afsimples/afp-lotus_simples.html
 
-- **[Solução do Exercício]()**
+- **[Solution](automatoLotus.c)**
+
