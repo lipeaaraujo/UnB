@@ -14,7 +14,7 @@ typedef struct No {
 
 No *inserirArvore(No *arv, int id, char alimento[TAM_ALIMENTO]) {
   if (arv == NULL) {
-    // printf("adicionando %d %s\n", id, alimento);
+    //  printf("adicionando %d %s\n", id, alimento);
     No *novo = (No *)calloc(1, sizeof(No));
     novo->col = id;
     strcpy(novo->alimento, alimento);

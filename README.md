@@ -19,12 +19,12 @@ Each course has it's own separate **folder** named after it's **acronym**, each 
 
 | 1st Semester | 2nd Semester | 3rd Semester | 4th Semester | 5th Semester |
 |-|-|-|-|-|
-| Cálculo 1 | Cálculo 2 | [Orientação à Objetos](3rd%20Semester/OO-UnB/) | Métodos de Desenvolvimento de Software | [Requisitos de Software](5th%20Semester/REQ-UnB/) |
-| [Algoritmos e Programação de Computadores](1st%20Semester/APC-UnB/) | Introdução à Álgebra Linear | [Teoria de Eletrônica Digital](3rd%20Semester/TED-UnB/) | Estruturas de Dados 1 | [Estrutura de Dados 2](5th%20Semester/EDA2-UnB/) |
-| Desenho Industrial Assistido por Computador | Probabilidade e Estatística | [Prática de Eletrônica Digital](3rd%20Semester/PED-UnB/) | Fundamentos de Arquitetura de Computadores | [Compiladores](5th%20Semester/COMP-UnB/) |
-| Engenharia e Ambiente | Física 1 | Engenharia Econômica | Gestão de Produção e Qualidade | [Fundamentos de Sistemas Operacionais](5th%20Semester/FSO-UnB/) |
-| Introdução à Engenharia | [Física Experimental](2nd%20Semester/FISEXP-UnB/) | Desenvolvimento de Software | Matemática Discreta 2 | [Interação Humano Computador](5th%20Semester/IHC-UnB/) |
-|  |  | [Métodos Numéricos](3rd%20Semester/MNE-UnB/) |  | [Sistema de Banco de Dados 1](5th%20Semester/SBD1-UnB/) |
+| Cálculo 1 | Cálculo 2 | [Orientação à Objetos](3rd%20Semester/OO/) | Métodos de Desenvolvimento de Software | [Requisitos de Software](5th%20Semester/REQ/) |
+| [Algoritmos e Programação de Computadores](1st%20Semester/APC/) | Introdução à Álgebra Linear | [Teoria de Eletrônica Digital](3rd%20Semester/TED/) | Estruturas de Dados 1 | [Estrutura de Dados 2](5th%20Semester/EDA2/) |
+| Desenho Industrial Assistido por Computador | Probabilidade e Estatística | [Prática de Eletrônica Digital](3rd%20Semester/PED/) | Fundamentos de Arquitetura de Computadores | [Compiladores](5th%20Semester/COMP/) |
+| Engenharia e Ambiente | Física 1 | Engenharia Econômica | Gestão de Produção e Qualidade | [Fundamentos de Sistemas Operacionais](5th%20Semester/FSO/) |
+| Introdução à Engenharia | [Física Experimental](2nd%20Semester/FISEXP/) | Desenvolvimento de Software | Matemática Discreta 2 | [Interação Humano Computador](5th%20Semester/IHC/) |
+|  |  | [Métodos Numéricos](3rd%20Semester/MNE/) |  | [Sistema de Banco de Dados 1](5th%20Semester/SBD1/) |
 |  |  | Matemática Discreta 1 |  |  |
 
 ## How to Use
