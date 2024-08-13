@@ -1,7 +1,0 @@
-set_property SRC_FILE_INFO {cfile:{C:/Users/felip/OneDrive/rea de Trabalho/UNB/3 Semestre/PED/and2/and2.srcs/constrs_1/new/Basys3_Master.xdc} rfile:../../../and2.srcs/constrs_1/new/Basys3_Master.xdc id:1} [current_design]
-set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN V17 [get_ports {a}]
-set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN V16 [get_ports {b}]
-set_property src_info {type:XDC file:1 line:47 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN U16 [get_ports {s}]

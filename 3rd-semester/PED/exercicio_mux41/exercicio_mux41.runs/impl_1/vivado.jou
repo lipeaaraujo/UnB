@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May 29 23:16:30 2023
+# Process ID: 336
+# Current directory: C:/Users/felip/OneDrive/rea de Trabalho/UNB/3 Semestre/PED/exercicio_mux41/exercicio_mux41.runs/impl_1
+# Command line: vivado.exe -log mux41.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mux41.tcl -notrace
+# Log file: C:/Users/felip/OneDrive/rea de Trabalho/UNB/3 Semestre/PED/exercicio_mux41/exercicio_mux41.runs/impl_1/mux41.vdi
+# Journal file: C:/Users/felip/OneDrive/rea de Trabalho/UNB/3 Semestre/PED/exercicio_mux41/exercicio_mux41.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mux41.tcl -notrace

@@ -1,0 +1,44 @@
+algoritmo quantidadeNumerosPrimos;
+// Síntese
+//  Objetivo:  Calcular a quantidade de números e quantos deles são primos.
+//  Entrada :	Conjunto de números.
+//  Saída   :	Quantidade de números digitados e quantidade de números primos.
+
+principal
+	// Declarações
+
+	inteiro numero, i, numPrimo, numDigitado;
+	logico primo;
+	
+	// Instruções
+
+	numPrimo = 0;
+	numDigitado = 0;
+	numero = 2;
+	
+	// Entrada de dados:
+	faca
+		leia(numero);
+		se (numero > 1) entao
+			// Verificação se o número é primo.
+			primo = verdadeiro;
+			i = 2;
+			enquanto (i < numero) faca
+				se ((numero % i) == 0) entao
+					primo = falso;
+				fimSe
+				i = i + 1;
+			fimEnquanto
+			
+			se (primo == verdadeiro) entao
+				numPrimo = numPrimo + 1;
+			fimSe
+			numDigitado = numDigitado + 1;
+		fimSe
+		
+	enquanto (numero > 1);
+
+	escreval("NUMEROS DIGITADOS = ", numDigitado);
+	escreval("NUMEROS PRIMOS = ", numPrimo);
+
+fimPrincipal

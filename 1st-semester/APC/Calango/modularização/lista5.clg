@@ -1,0 +1,101 @@
+algoritmo verificadorDatas;
+// Síntese
+//  Objetivo:  Verificar apartir dos valores inseridos se a data existe.
+//  Entrada : Valores inteiros para dia, mês, ano, hora e minuto.
+//  Saída   : Informação se a data é correta ou não.
+
+
+principal
+	// Declarações
+
+	inteiro dia, mes, ano, hora, minutos, vericacao_data;
+	logico verificacao_data;
+
+	// Instruções
+
+	leia(dia);
+	leia(mes);
+	leia(ano);
+	leia(hora);
+	leia(minutos);
+
+	verificacao_data = verifica_data(dia, mes, ano, hora, minutos);
+
+	se (verificacao_data == verdadeiro) entao
+		escreval("DATA CORRETA");
+	senao
+		escreval("DATA INCORRETA");
+	fimSe
+
+fimPrincipal
+
+funcao logico verifica_data(inteiro dia, inteiro mes, inteiro ano, inteiro hora, inteiro minutos)
+
+	logico verificacao_data;
+	
+	verificacao_data = verdadeiro;
+	
+	// Verificação dos limites:
+	se (dia < 1 ou mes < 1 ou mes > 12 ou ano < 0 ou hora < 0 ou hora > 23 ou minutos < 0 ou minutos > 59) entao
+		verificacao_data = falso;
+	senao
+		// Verificação de ano bissexto:
+		se (ano % 4 == 0 e ano % 100 != 0) entao
+			// Ano bissexto:
+			se (mes == 1 ou mes == 3 ou mes == 5 ou mes == 7 ou mes == 8 ou mes == 10 ou mes == 12) entao
+					se (dia > 31) entao
+						verificacao_data = falso;
+					fimSe
+				senao
+					se (mes == 2) entao
+						se (dia > 29) entao
+							verificacao_data = falso;
+						fimSe
+					senao
+						se (dia > 30) entao
+							verificacao_data = falso;
+						fimSe
+					fimSe
+				fimSe
+		senao
+			se (ano % 400 == 0) entao
+				// Ano bissexto:
+				se (mes == 1 ou mes == 3 ou mes == 5 ou mes == 7 ou mes == 8 ou mes == 10 ou mes == 12) entao
+					se (dia > 31) entao
+						verificacao_data = falso;
+					fimSe
+				senao
+					se (mes == 2) entao
+						se (dia > 29) entao
+							verificacao_data = falso;
+						fimSe
+					senao
+						se (dia > 30) entao
+							verificacao_data = falso;
+						fimSe
+					fimSe
+				fimSe
+			senao
+				// Ano normal:
+				// Verificação dos meses e dias:
+				se (mes == 1 ou mes == 3 ou mes == 5 ou mes == 7 ou mes == 8 ou mes == 10 ou mes == 12) entao
+					se (dia > 31) entao
+						verificacao_data = falso;
+					fimSe
+				senao
+					se (mes == 2) entao
+						se (dia > 28) entao
+							verificacao_data = falso;
+						fimSe
+					senao
+						se (dia > 30) entao
+							verificacao_data = falso;
+						fimSe
+					fimSe
+				fimSe
+			fimSe
+		fimSe
+	fimSe
+
+retorna verificacao_data;
+fimFuncao

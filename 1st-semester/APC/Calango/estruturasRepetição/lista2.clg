@@ -1,0 +1,67 @@
+algoritmo timeFutebol;
+// Síntese
+//  Objetivo:  Receber dados de jogadores do time e calcular quantos tem menos de 18 anos, a média de peso e o percentual com menos de 1,70m de altura.
+//  Entrada :	Idade, peso e altura de cada jogador.
+//  Saída   :	Número de jogadores com menos de 18 anos, a média de peso dos jogadores e o percentual de jogadores que tem menos de 1,70m de altura.
+
+
+principal
+	// Declarações
+
+	inteiro idade[11];
+	real peso[11], altura[11];
+	inteiro i;
+	inteiro numMenor18, numMenorAltura;
+	real mediaPeso, porcenAltura, totalPeso;
+	
+	// Instruções
+
+	// Entrada de dados:
+	i = 0;
+	enquanto (i <= 10) faca
+		leia(idade[i]);
+		leia(peso[i]);
+		leia(altura[i]);
+		i = i + 1;
+	fimEnquanto
+
+	// Calculo dos dados:
+
+	// Menores de 18:
+	i = 0;
+	numMenor18 = 0;
+	enquanto (i <= 10) faca
+		se (idade[i] < 18) entao
+			numMenor18 = numMenor18 + 1;
+		fimSe
+		i = i + 1; 
+	fimEnquanto
+
+	// Média de peso:
+	i = 0;
+	totalPeso = 0;
+	enquanto (i <= 10) faca
+		totalPeso = totalPeso + peso[i];
+		i = i + 1;
+	fimEnquanto
+	mediaPeso = totalPeso / 11;
+
+	// Porcentagem menor que 1,70m:
+	i = 0;
+	numMenorAltura = 0;
+	enquanto (i <= 10) faca
+		se (altura[i] < 1.70) entao
+			numMenorAltura = numMenorAltura + 1;
+		fimSe
+		i = i + 1;
+	fimEnquanto
+	porcenAltura = (numMenorAltura / 11) * 100;
+
+	// Saída de dados:
+
+	escreval("JOGADORES COM MENOS DE 18 ANOS = ", numMenor18);
+	escreval("PESO MEDIO DOS JOGADORES = ", mediaPeso::2);
+	escreval("PERCENTUAL COM MENOS DE 1.70m = ", porcenAltura::2);
+
+fimPrincipal
+      

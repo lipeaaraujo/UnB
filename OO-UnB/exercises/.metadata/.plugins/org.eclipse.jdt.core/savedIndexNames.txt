@@ -1,9 +1,0 @@
-INDEX VERSION 1.132+C:\Users\felip\OneDrive\Área de Trabalho\UNB\3° Semestre\OO\Exercícios\.metadata\.plugins\org.eclipse.jdt.core
-1693037013.index
-1290811106.index
-932684231.index
-2694179749.index
-1826897575.index
-1865797976.index
-1650449417.index
-704179315.index
