@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "5229f9f43b72ba4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e91aebea9498dd91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "660c2f47d2b4e289",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test-Driven Development.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Test-Driven Development"
+            }
+          },
+          {
+            "id": "16a433086df3d18b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test Doubles e Mocks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Test Doubles e Mocks"
+            }
+          },
+          {
+            "id": "385dc3c07e245365",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "excalidraw/tdd-fluxo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "tdd-fluxo.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd91083c54c7abd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b867cd0fdb2124b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0d84a8dc7904c57",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "f18cf7cd2431ac0b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "738ece367d0e6f33",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8aade5b4727e1552",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e8a4bd49f978c4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "363de04eedb6b572",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Test-Driven Development.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Test-Driven Development"
+            }
+          },
+          {
+            "id": "86e1e0d0224bcbcb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Test-Driven Development.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Test-Driven Development"
+            }
+          },
+          {
+            "id": "4144da94a01bb337",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a40834f3283f5d34",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Test-Driven Development.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Test-Driven Development"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "16a433086df3d18b",
+  "lastOpenFiles": [
+    "Mocks.md",
+    "Test Doubles e Mocks.md",
+    "Test-Driven Development.md",
+    "excalidraw/tdd-fluxo.excalidraw.md",
+    "assets/tdd-fluxo.png",
+    "excalidraw",
+    "assets"
+  ]
+}

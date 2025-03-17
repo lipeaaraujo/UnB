@@ -1,0 +1,1 @@
+**Definição:** Quão coerentes/aderentes estão as informações e operações dentro de uma única parte (componente) ou entre um grupo de componentes.
