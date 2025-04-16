@@ -1,1 +1,0 @@
-**Definição:** Paradigma de algoritmo que envolve quebrar um problema em dois sub-problemas, resolver cada sub-problema de forma independente e combinar as soluções dos sub-problemas para construir uma solução para o problema original 

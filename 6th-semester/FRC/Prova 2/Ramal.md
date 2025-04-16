@@ -1,0 +1,1 @@
+**Definição:** Refere-se a qualquer ramo de uma rede telefônica privada. O nome parte de uma analogia com uma árvore, um telefonema primeiro chega ao tronco, que seria a central telefônica, e dali é direcionado a linha telefônica individual ou ramo ou ramal. 

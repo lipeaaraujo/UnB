@@ -1,1 +1,0 @@
-**Definição:** Um evento pode ser um sinal que assume uma gama de valores ou uma entrada de comandos baseados em um menu. A diferença de um evento e uma entrada simples é que a ocorrência do evento está fora de controle do processo que manipula esse evento. 

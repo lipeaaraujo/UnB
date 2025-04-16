@@ -1,1 +1,0 @@
-**Definição:** Unidade autocontida, com funcionalidade bem definida. Compõe um sistema como peça de um quebra-cabeça.  

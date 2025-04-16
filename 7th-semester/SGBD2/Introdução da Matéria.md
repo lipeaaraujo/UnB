@@ -1,0 +1,4 @@
+- Serão 7 atividades avaliativas (**6 V's** e **EPF**).
+- Nota final (**MF**) calculada com a notas das avaliações (**V's** e **EPF**) e o ponto de exercício (**E**).
+- Nota menor que 3,0 em alguma V tem que fazer **monitoria**.
+- Aprovação: **75% de frequência** e **MF >= 5,0**.

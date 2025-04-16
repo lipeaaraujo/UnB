@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "path:7th-semester/PSPD  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:6th-semester ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:7th-semester  ",
+      "color": {
+        "a": 1,
+        "rgb": 5429216
+      }
+    },
+    {
+      "query": "path:5th-semester  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701242
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 11.9791666666667,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.5147353125585037,
+  "close": false
+}
