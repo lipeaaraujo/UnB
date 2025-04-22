@@ -1,1 +1,0 @@
--wto "f98cedf7ae2d4a98a626fc23a051b7e1" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_sinal_alarme_behav" "xil_defaultlib.tb_sinal_alarme" -log "elaborate.log" 
