@@ -4,79 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0ee4659031c24a91",
+        "id": "9841ee4702d726b4",
         "type": "tabs",
         "children": [
           {
-            "id": "76795f7b418c927c",
+            "id": "e0d6cf3945959ac5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7th-semester/SGBD2/aulas/Aula 7.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Aula 7"
-            }
-          },
-          {
-            "id": "4de07e2d20ccfe66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7th-semester/Paradigmas/Links.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Links"
-            }
-          },
-          {
-            "id": "560ddd2493b3f174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7th-semester/Paradigmas/Combinadores/Base SK.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Base SK"
-            }
-          },
-          {
-            "id": "63d09f9a046381da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7th-semester/Paradigmas/Fundamentos/Lógica Proposicional Booleana.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lógica Proposicional Booleana"
-            }
-          },
-          {
-            "id": "ada82b39528e5fe9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "7th-semester/FLIA/quadro.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "quadro"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,54 +165,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "30cd46afb3fb9860",
+  "active": "e0d6cf3945959ac5",
   "lastOpenFiles": [
-    "7th-semester/FLIA/Drawing 2025-04-15 23.21.54.excalidraw.md",
-    "7th-semester/Paradigmas/Combinadores/Base SK.md",
-    "7th-semester/Paradigmas/Combinadores/Introdução.md",
-    "7th-semester/FLIA/Planning and Scheduling/Planning and Scheduling.md",
-    "7th-semester/Paradigmas/Combinadores",
-    "7th-semester/Paradigmas/Links.md",
-    "7th-semester/Paradigmas/Fundamentos/Lógica Proposicional Booleana.md",
-    "7th-semester/FLIA/Planning and Scheduling/Untitled.md",
-    "7th-semester/SGBD2/aulas/Aula 7.md",
-    "7th-semester/Paradigmas/Fundamentos/Teoria dos Conjuntos.md",
-    "7th-semester/Paradigmas/Fundamentos/Funções.md",
-    "7th-semester/Paradigmas/Lista 1 - Resolução.md",
-    "7th-semester/Paradigmas/lista_01.pdf",
-    "7th-semester/PSPD/Conteúdo.md",
-    "7th-semester/PSPD/Introdução.md",
-    "7th-semester/PSPD/Camada de Transporte/Transporte Confiável de Dados.md",
-    "7th-semester/PSPD/Camada de Transporte/Camada de Transporte.md",
-    "7th-semester/PSPD/Camada de Transporte/Diálogo Cliente-Servidor com TCP.md",
-    "7th-semester/PSPD/Camada de Transporte/Protocolo TCP.md",
-    "7th-semester/PSPD/Camada de Transporte/Protocolo UDP.md",
-    "7th-semester/PSPD/Programação Paralela e Distribuída/Chamada de Procedimento Remoto.md",
-    "7th-semester/PSPD/Introdução da matéria.md",
-    "7th-semester/PSPD/Programação Paralela e Distribuída/Exemplo de programa RPC.md",
-    "7th-semester/PSPD/Programação Paralela e Distribuída/gRPC.md",
-    "7th-semester/PSPD/Programação Paralela e Distribuída/Programação Paralela e Distribuída.md",
-    "7th-semester/ENGSEG/Tópico 2/Definições básicas.md",
-    "7th-semester/PSPD/Programação Paralela e Distribuída",
-    "7th-semester/PSPD/gRCP",
-    "7th-semester/PSPD/Chamada de Procedimento Remoto",
-    "7th-semester/FLIA/quadro.md",
-    "7th-semester/PSPD/Camada de Transporte",
-    "7th-semester/PSPD/RPCexercises/AddSub/calcula_server",
-    "7th-semester/PSPD/RPCexercises/AddSub/calcula_server.o",
-    "7th-semester/PSPD/RPCexercises/AddSub/calcula_svc.o",
-    "7th-semester/PSPD/RPCexercises/AddSub/calcula_client",
-    "7th-semester/Paradigmas/Paradigma Lógico/Unificação.md",
+    "SGBD2/resumos/Tuning de Banco de Dados.md",
+    "COMP/lista3_pascal/SomaN.pas",
+    "COMP/lista3_pascal/Soma2.pas",
+    "COMP/lista3_pascal/README.md",
+    "COMP/lista3_pascal/OlaMundo.pas",
+    "COMP/lista3_pascal/ConversaoTemperatura.pas",
+    "COMP/lista3_pascal/AjudeRodovalho2.pas",
+    "COMP/lista3_pascal/AjudeRodovalho.pas",
+    "COMP/lista1_regex/validacaoHorario.grepe",
+    "COMP/lista1_regex/tags.grepe",
+    "COMP/lista1_regex/quebrandoSenhas.grepe",
+    "COMP/lista1_regex/problema101.grepe",
+    "COMP/lista1_regex/README.md",
+    "COMP/lista2_automatos/README.md",
+    "COMP/exercises/listaConteudo.md",
+    "COMP/annotations/sintaticoEConversao.md",
+    "COMP/annotations/linguagemPascalMEPA.md",
+    "COMP/annotations/implementacaoAutomatos.md",
+    "COMP/annotations/gramaticaLivreDoContexto.md",
+    "COMP/annotations/conversaoAFNparaAFD.md",
+    "COMP/annotations/construcaoCompiladores.md",
+    "COMP/annotations/automatosFinitosNaoDeterministicos.md",
+    "COMP/annotations/automatosFinitosDeterministicos.md",
+    "COMP/annotations/analisadorTopDown.md",
+    "COMP/annotations/analisadorSintatico.md",
+    "COMP/annotations/analisadorAscendente.md",
+    "COMP/annotations/afn-afng-regex.md",
+    "5th-semester/COMP/lista3_pascal/README.md",
+    "5th-semester/COMP/lista2_automatos/README.md",
+    "5th-semester/COMP/lista1_regex/README.md",
+    "5th-semester/COMP/exercises/listaConteudo.md",
+    "5th-semester/COMP/annotations/sintaticoEConversao.md",
+    "5th-semester/COMP/annotations/linguagemPascalMEPA.md",
+    "5th-semester/COMP/annotations/implementacaoAutomatos.md",
+    "5th-semester/COMP/annotations/gramaticaLivreDoContexto.md",
+    "5th-semester/COMP/annotations/conversaoAFNparaAFD.md",
+    "assets/Pasted image 20250327185448.png",
+    "assets/Pasted image 20250329191904.png",
+    "assets/Pasted image 20250329181516.png",
+    "assets/Pasted image 20250325150315.png",
+    "assets/Pasted image 20250419214907.png",
+    "assets/Pasted image 20250419214527.png",
     "assets/Pasted image 20250409101621.png",
     "assets/Pasted image 20250409101538.png",
     "assets/Pasted image 20250409101517.png",
     "assets/Pasted image 20250409101003.png",
-    "assets/Pasted image 20250409100947.png",
-    "assets/Pasted image 20250409100101.png",
-    "assets/Pasted image 20250409095616.png",
-    "assets/Pasted image 20250409094857.png",
-    "assets/Pasted image 20250409094027.png",
-    "assets/Pasted image 20250409093953.png",
     "7th-semester/FLIA/Untitled.canvas"
   ]
 }
