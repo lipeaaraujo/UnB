@@ -17,15 +17,15 @@ Each course has it's own separate **folder** named after it's **acronym**, each 
 
 ### Semester Schedules
 
-| 1st Semester | 2nd Semester | 3rd Semester | 4th Semester | 5th Semester | 6th Semester |
-|-|-|-|-|-|-|
-| Cálculo 1 | Cálculo 2 | [Orientação à Objetos](3rd-semester/OO/) | Métodos de Desenvolvimento de Software | [Requisitos de Software](5th-semester/REQ/) | [Arquitetura e Desenho de Software](6th-semester/ADS/) |
-| [Algoritmos e Programação de Computadores](1st-semester/APC/) | Introdução à Álgebra Linear | [Teoria de Eletrônica Digital](3rd-semester/TED/) | [Estruturas de Dados 1](4th-semester/EDA/) | [Estrutura de Dados 2](5th-semester/EDA2/) | [Fundamentos de Redes de Computadores](6th-semester/FRC/) |
-| Desenho Industrial Assistido por Computador | Probabilidade e Estatística | [Prática de Eletrônica Digital](3rd-semester/PED/) | [Fundamentos de Arquitetura de Computadores](4th-semester/FAC/) | [Compiladores](5th-semester/COMP/) | [Projeto de Algoritmos](6th-semester/PA/) |
-| Engenharia e Ambiente | Física 1 | Engenharia Econômica | Gestão de Produção e Qualidade | [Fundamentos de Sistemas Operacionais](5th-semester/FSO/) | [Qualidade de Software](6th-semester/QUA/) |
-| Introdução à Engenharia | [Física Experimental](2nd-semester/FISEXP/) | Desenvolvimento de Software | Matemática Discreta 2 | [Interação Humano Computador](5th-semester/IHC/) | [Testes de Software](6th-semester/TES/) |
-|  |  | [Métodos Numéricos](3rd-semester/MNE/) |  | [Sistema de Banco de Dados 1](5th-semester/SBD1/) |  |
-|  |  | Matemática Discreta 1 |  |  |  |
+| 1st Semester                                     | 2nd Semester                   | 3rd Semester                          | 4th Semester                                       | 5th Semester                                 | 6th Semester                                 | 7th Semester                                              |
+| ------------------------------------------------ | ------------------------------ | ------------------------------------- | -------------------------------------------------- | -------------------------------------------- | -------------------------------------------- | --------------------------------------------------------- |
+| Cálculo 1                                        | Cálculo 2                      | [Orientação à Objetos](OO/)           | Métodos de Desenvolvimento de Software             | [Requisitos de Software](REQ/)               | [Arquitetura e Desenho de Software](ADS/)    | [Engenharia de Segurança do Trabalho](ENGSEG/)            |
+| [Algoritmos e Programação de Computadores](APC/) | Introdução à Álgebra Linear    | [Teoria de Eletrônica Digital](TED/)  | [Estruturas de Dados 1](EDA/)                      | [Estrutura de Dados 2](EDA2/)                | [Fundamentos de Redes de Computadores](FRC/) | [Fundamentos Lógicos de Inteligência Artifical](FLIA/)    |
+| Desenho Industrial Assistido por Computador      | Probabilidade e Estatística    | [Prática de Eletrônica Digital](PED/) | [Fundamentos de Arquitetura de Computadores](FAC/) | [Compiladores](COMP/)                        | [Projeto de Algoritmos](PA/)                 | [Paradigmas de Programação](Paradigmas/)                  |
+| Engenharia e Ambiente                            | Física 1                       | Engenharia Econômica                  | Gestão de Produção e Qualidade                     | [Fundamentos de Sistemas Operacionais](FSO/) | [Qualidade de Software](QUA/)                | [Programação de Sistemas Paralelos e Distribuídos](PSPD/) |
+| Introdução à Engenharia                          | [Física Experimental](FISEXP/) | Desenvolvimento de Software           | Matemática Discreta 2                              | [Interação Humano Computador](IHC/)          | [Testes de Software](TES/)                   | [Projeto Integrador de Engenharia 1](PI1/)                |
+|                                                  |                                | [Métodos Numéricos](MNE/)             |                                                    | [Sistema de Banco de Dados 1](SBD1/)         |                                              | [Sistema Gerenciador de Banco de Dados 2](SGBD/)          |
+|                                                  |                                | Matemática Discreta 1                 |                                                    |                                              |                                              |                                                           |
 
 ## How to Use
 

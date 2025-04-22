@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9841ee4702d726b4",
+        "id": "da285b9d50d17f09",
         "type": "tabs",
         "children": [
           {
-            "id": "e0d6cf3945959ac5",
+            "id": "a1679a084554b238",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "30cd46afb3fb9860",
+  "active": "a1679a084554b238",
   "lastOpenFiles": [
+    "README.md",
+    "PSPD.md",
+    "FLIA.md",
     "PED/PED-VHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_exp2_behav/webtalk/xsim_webtalk.tcl",
     "PED/PED-VHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_exp2_behav/webtalk/usage_statistics_ext_xsim.xml",
     "PED/PED-VHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_exp2_behav/webtalk/usage_statistics_ext_xsim.wdm",
@@ -177,7 +180,6 @@
     "PED/PED-VHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/exp2_behav/webtalk/usage_statistics_ext_xsim.xml",
     "PED/PED-VHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/exp2_behav/webtalk/usage_statistics_ext_xsim.html",
     "PED/PED-VHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/exp2_behav/obj/xsim_0.win64.obj",
-    "PED/PED-VHDL/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/exp2_behav/obj/xsim_1.win64.obj",
     "SGBD2/resumos/Tuning de Banco de Dados.md",
     "COMP/lista3_pascal/README.md",
     "COMP/lista1_regex/README.md",
@@ -201,8 +203,6 @@
     "5th-semester/COMP/exercises/listaConteudo.md",
     "5th-semester/COMP/annotations/sintaticoEConversao.md",
     "5th-semester/COMP/annotations/linguagemPascalMEPA.md",
-    "5th-semester/COMP/annotations/implementacaoAutomatos.md",
-    "5th-semester/COMP/annotations/gramaticaLivreDoContexto.md",
     "assets/Pasted image 20250327185448.png",
     "assets/Pasted image 20250329191904.png",
     "assets/Pasted image 20250329181516.png",
